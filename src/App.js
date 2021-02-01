@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { FullName,Bio, Profession,Image,Email } from './profile/Profile component';
+import { FullName,Bio, Profession,Image,Email,Foo } from './profile/Profile component';
 
 
 function App() {
@@ -12,8 +12,9 @@ function App() {
         <FullName  name="rafik mami"/>
         <Bio bio="Welcome to My react application !"/>
         <Profession profession="fullstack js developer"/>
-        <Image><img src={logo} alt="no image"/></Image>
+        <Image><img src={logo} alt="image"/></Image>
         <Email/>
+        <Foo/>
         </div>
         
   )
